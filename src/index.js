@@ -1,0 +1,1 @@
+export { DefaultMap as default } from './DefaultMap';
