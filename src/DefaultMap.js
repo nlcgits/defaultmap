@@ -1,4 +1,4 @@
-export default class DefaultMap extends Map {
+class DefaultMap extends Map {
     constructor(defaultValue) {
         if (typeof defaultValue == 'function') {
             this.defaultGenerator = defaultValue;
@@ -15,3 +15,5 @@ export default class DefaultMap extends Map {
         return super.get(key);
     }
 }
+
+export { DefaultMap };
