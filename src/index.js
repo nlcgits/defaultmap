@@ -1,1 +1,3 @@
-export { DefaultMap as default } from './DefaultMap';
+import { DefaultMap } from './DefaultMap';
+
+export { DefaultMap };

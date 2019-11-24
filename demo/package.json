@@ -1,0 +1,8 @@
+{
+    "name": "defaultmapdemo",
+    "version": "0.0.1",
+    "dependencies": {
+        "@nextlevelcoder/defaultmap": "latest"
+    },
+    "type": "module"
+}

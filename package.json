@@ -1,6 +1,6 @@
 {
   "name": "@nextlevelcoder/defaultmap",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A map class that sets a default value when an unset key is requested.",
   "main": "src/index.js",
   "scripts": {
@@ -11,11 +11,7 @@
     "url": "git+https://github.com/nlcgits/defaultmap.git"
   },
   "keywords": [
-    "mobx",
-    "react",
-    "redux",
-    "share",
-    "state"
+    "map"
   ],
   "author": "Joseph Cohen <joseph@nextlevelcoder.com> (https://nextlevelcoder.com)",
   "license": "MIT",

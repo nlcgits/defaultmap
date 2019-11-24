@@ -1,12 +1,12 @@
 class DefaultMap extends Map {
     constructor(defaultValue) {
+        super();
         if (typeof defaultValue == 'function') {
             this.defaultGenerator = defaultValue;
         }
         else {
             this.defaultGenerator = () => defaultValue;
         }
-        super();
     }
     get(key) {
         if (!this.has(key)) {
