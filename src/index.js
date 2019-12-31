@@ -1,3 +1,3 @@
-import { DefaultMap } from './DefaultMap';
+const { DefaultMap } = require('./DefaultMap');
 
-export { DefaultMap };
+module.exports = { DefaultMap };

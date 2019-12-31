@@ -16,4 +16,4 @@ class DefaultMap extends Map {
     }
 }
 
-export { DefaultMap };
+module.exports = { DefaultMap };
