@@ -6,7 +6,7 @@ Just like a regular map, except you pass a default value to the constructor and 
 ## Constructor
 
 ```js
-import DefaultMap from '@nextlevelcoder/DefaultMap';
+const { DefaultMap } = require('@nextlevelcoder/DefaultMap');
 
 let staticMap = new DefaultMap(7); // 7
 console.log(staticMap.get(1)); // 7
@@ -18,7 +18,7 @@ console.log(classMap.get('accountState')) // a new SimpleState instance
 console.log(classMap.get('networkState')) // a new SimpleState instance
 
 let dynamicMap = new DefaultMap((key) => key);
-console.log(staticMap.get(1)); // 1
-console.log(staticMap.get({})); // {}
-console.log(staticMap.get([])); // []
+console.log(dynamicMap.get(1)); // 1
+console.log(dynamicMap.get({})); // {}
+console.log(dynamicMap.get([])); // []
 ```
